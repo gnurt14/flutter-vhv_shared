@@ -1,0 +1,2 @@
+
+enum PickType{camera, storage}
