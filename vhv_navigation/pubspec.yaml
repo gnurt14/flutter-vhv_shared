@@ -17,7 +17,7 @@ dependencies:
     path: ../vhv_shared
   go_router: any
   bottom_sheet:
-    path: ../../3rdparty/bottom_sheet-4.0.4
+    path: ../3rdparty/bottom_sheet-4.0.4
 
 dev_dependencies:
   flutter_test:

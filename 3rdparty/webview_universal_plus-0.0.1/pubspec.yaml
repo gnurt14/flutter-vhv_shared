@@ -1,0 +1,38 @@
+name: webview_universal_plus
+description: Show a webview window on your flutter cross platform android, ios, linux, macos, web, windows.
+version: 0.0.1
+homepage: https://github.com/rocchen/webview_universal
+
+platforms:
+  android:
+  ios:
+  linux:
+  macos:
+  windows:
+  web:
+  
+environment:
+  sdk: ^3.8.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  path: ^1.8.2
+  universal_io: ^2.2.0
+  webview_flutter: ^4.13.0
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+ 
+flutter:
+  plugin:
+    platforms:
+      macos:
+        pluginClass: WebviewUniversalPlugin
+      windows:
+        pluginClass: WebviewUniversalPlugin
+      linux:
+        pluginClass: WebviewUniversalPlugin

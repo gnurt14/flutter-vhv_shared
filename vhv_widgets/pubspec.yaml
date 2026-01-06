@@ -46,27 +46,27 @@ dependencies:
   flutter_exif_rotation: ^0.5.1
 
   flutter_tagging_plus:
-    path: ../../3rdparty/flutter_tagging_plus-4.0.2
+    path: ../3rdparty/flutter_tagging_plus-4.0.2
   html_unescape: ^2.0.0
   webview_flutter: ^4.13.0
   youtube_player_flutter: ^9.1.3
   just_audio: ^0.10.4
   video_player: ^2.10.0
   better_player:
-    path: ../../3rdparty/better_player
+    path: ../3rdparty/better_player
   wechat_assets_picker:
-    path: ../../3rdparty/wechat_assets_picker-9.8.0
+    path: ../3rdparty/wechat_assets_picker-9.8.0
   wechat_camera_picker:
-    path: ../../3rdparty/wechat_camera_picker-4.4.0
+    path: ../3rdparty/wechat_camera_picker-4.4.0
   camera: ^0.11.2
   rxdart:
   bottom_picker: ^4.1.1
-  html_editor:
-    path: ../../3rdparty/flutter_html_editor_new
+  # html_editor:  # Commented out: circular dependency with vhv_core
+  #   path: ../3rdparty/flutter_html_editor_new
   flutter_datetime_picker_plus:
-    path: ../../3rdparty/flutter_datetime_picker_plus-2.2.0
+    path: ../3rdparty/flutter_datetime_picker_plus-2.2.0
 #  html_editor:
-#    path: ../../3rdparty/flutter_html_editor
+#    path: ../3rdparty/flutter_html_editor
   calendar_date_picker2: ^2.0.1
   syncfusion_flutter_datepicker: ^30.1.39
 

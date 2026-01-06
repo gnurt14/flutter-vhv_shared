@@ -31,7 +31,7 @@ dependencies:
   loader_overlay: ^5.0.0
   html: ^0.15.6
   bottom_sheet:
-    path: ../../3rdparty/bottom_sheet-4.0.4
+    path: ../3rdparty/bottom_sheet-4.0.4
 
 
 dev_dependencies:
